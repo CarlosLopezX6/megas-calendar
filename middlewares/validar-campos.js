@@ -12,7 +12,7 @@ const validarCampos = ( req, res = response, next ) => {
         })
     }
 
-    next();  //Si no hay ningun error en un middleware o en una validacion, ps se apsa a la otra y asi.
+    next();  //Si no hay ningun error en un middleware o en una validacion, ps se pasa a la otra y asi.
 
 }
 
